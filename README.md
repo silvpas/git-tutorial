@@ -37,8 +37,8 @@ Specifically, this assumes you know how to:
 * Push changes to remote (`git push`)
 * Get updates (`git pull`)
 * Check the current status (`git status`, `git diff`, `git diff --cached`)
-* Create a branch, maybe (`git branch`, `git checkout -b`)
 
+If you're unsure on any of those, see the [basics](docs/basics.md) section.
 
 Other prerequisites:
 
