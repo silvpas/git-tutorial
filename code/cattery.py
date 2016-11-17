@@ -16,6 +16,17 @@ class CatNotFound(Exception):
 
 # Classes
 
+class Cat(object):
+    """A cat."""
+
+    def __init__(self, name, color, age):
+        self.name = name
+        self.color = color
+        self.age = age
+        self.favorite_toys = []
+        self.favorite_food = []
+
+
 class Cattery(object):
     """A collection of cats."""
 
