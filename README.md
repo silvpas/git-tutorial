@@ -18,6 +18,7 @@ This tutorial was developed for [PyLadies Vancouver](http://www.pyladies.com/loc
 
 Instructions for following the tutorial are in the [docs](docs) folder.
 Code to modify and play with is in the [code](code) folder.
+Tests can be run with `python -m unittest` or `python -m unittest code.test_cattery` from this directory.
 
 
 ## Prerequisites
@@ -87,6 +88,8 @@ We're also showing two workflows.
  * Windows user
  * 8 years creating & resolving merge conflicts
 
+Some code from [catinabox Python testing tutorial](https://github.com/keeppythonweird/catinabox).
+
 ## License
 
-The content of this project is licensed [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/).
+The content of this project is licensed [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/), and the example source code is licensed under the MIT license.
