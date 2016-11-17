@@ -10,12 +10,7 @@ If you've used git for your own projects but haven't used it when collaborating 
 If you're brand new to git, we'll be reviewing the basics at the beginning.
 If you're a git expert, feel free to share you expertise!
 
-Topics we're hoping to cover:
-
-* Branches
-* Merging & Rebasing (and why you might pick one over the other)
-* Git visualizers
-
+This accompanies [slides](http://bit.do/git_tutorial).
 This tutorial was developed for [PyLadies Vancouver](http://www.pyladies.com/locations/vancouver/).
 
 
@@ -43,23 +38,32 @@ If you're unsure on any of those, see the [basics](docs/basics.md) section.
 Other prerequisites:
 
 * A Github account
-* A computer with git installed
+* Git
+* Python
+* Command line (UNIX shell or Windows Powershell)
 
-The tutorial covers:
 
-* Concepts behind git
-* Git visualizers
-* Working with other people's code
-** Forking on Github and adding remotes
-** Branches
-** Merging
-** Rebasing
-* Recovering from problems
-** Merge conflicts
-** Aborting the current action
-** Committing to the wrong branch
-** Reset and reverting
-* Tips and Tricks
+## Goals
+
+By the time you're done, you should know how to contribute to an open source project.
+We're covering how to:
+
+* Fork a project
+* Make changes in a branch
+* Keep up with upstream changes
+* Make pull request
+* Merge a branch
+
+We're also showing two workflows.
+
+* Open-source contributor
+ * Don't have commit access to the project repository
+ * Must fork & make a pull request
+ * Someone else merges changes
+* Core contributor / employee
+ * Have commit access to the project repository
+ * Can merge your own changes
+ * Can still use pull requests to encourage code review
 
 
 ## Other Resources
@@ -68,7 +72,20 @@ The tutorial covers:
 * [Pro Git](https://git-scm.com/book) - Comprehensive reference book for git
 * [The Git Parable](http://tom.preston-werner.com/2009/05/19/the-git-parable.html) - Story explaining the motivation behind git & version control
 * [Oh shit, git!](http://ohshitgit.com) - Amusing solutions to common problems
+* [Getting solid at Git rebase vs. merge](https://medium.com/@porteneuve/getting-solid-at-git-rebase-vs-merge-4fa1a48c53aa)
 
+
+## Created by
+
+* Holly Becker
+ * Python developer
+ * Linux user
+ * 4 years using git
+ * @Hwesta on Twitter & Github
+* Ian Neufeld (Zee)
+ * C# / Unity developer
+ * Windows user
+ * 8 years creating & resolving merge conflicts
 
 ## License
 
