@@ -3,8 +3,7 @@
 
 import unittest
 
-from . import cattery
-
+import cattery
 
 class TestCattery(unittest.TestCase):
     """Test Cattery class."""
